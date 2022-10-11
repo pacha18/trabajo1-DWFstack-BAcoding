@@ -47,20 +47,25 @@ header{
     background-color: #591902;
 }
 header img{
-    margin-left: 2.5em;
+    margin-left: 2%;
     width: 10%;
 }
 header ul{
+  
     list-style: none;
     border-top:2px solid white ;
+    
 }
 header ul li{
-    float: left;
+    float: right;
+    
+   
     
 }
 header nav{
-  
-    margin-left: 8em;
+    width: 70%;
+    margin:0 2%;
+    margin-left: 14%;
    text-align: right;
 }
 header a {
@@ -250,6 +255,7 @@ footer p{
 }
 /*Estilos de las cajas principales*/
 .caja{
+    margin: 0 2%;
     padding: 1.5em 0em;
     width: 100%;
     display: flex;
@@ -277,18 +283,17 @@ footer p{
 box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 }
 .caja img{
-    width: 10em;
-    height: 10em;
-    margin-top: 1em;
-    margin-left: 30%;
+    width: 40%;
+    height: 12em;
+    margin:1em 30%;
     transition: 200ms;
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
 }
 .caja div img:hover{
-    width: 10.5em;
-    height: 10.5em;
+    width: 42%;
+    height: 12.5em;
     -webkit-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 -moz-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
