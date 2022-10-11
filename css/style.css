@@ -246,11 +246,12 @@ footer p{
     padding: 1.5em 0em;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .caja div{
-    width: 30%;
-    margin: 0em 3.33%;
+    width: 28%;
+    margin: 1em 2%;
     text-align: justify;
     transition: 300ms;
     background-color: rgb(209, 209, 209);
@@ -269,17 +270,18 @@ footer p{
 box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 }
 .caja img{
-    width: 60%;
-    height: 44%;
+    width: 10em;
+    height: 10em;
     margin-top: 1em;
-    margin-left: 20%;
+    margin-left: 30%;
     transition: 200ms;
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
 }
 .caja div img:hover{
-    width: 61%;
+    width: 10.5em;
+    height: 10.5em;
     -webkit-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 -moz-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
