@@ -23,6 +23,11 @@ h1{
 -webkit-border-radius: 30px 30px 30px 30px;
 border: 0px solid #000000;
 }
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 4em;
+}
 /*Secciones en General*/
 .contenedor{
         margin: 0em 2em;
@@ -230,9 +235,11 @@ box-shadow: 10px 10px 90px 35px rgba(217,95,95,0.6);
 
 /*Estilos del footer*/
 footer{
+    position: absolute;
+    bottom: 0;
     padding: 0.5em 0em;
-    margin-top: 1em;
     width: 100%;
+    height:2em ;
     background-color: #591902;
     text-align: center;
 
