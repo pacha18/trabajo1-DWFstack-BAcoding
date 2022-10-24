@@ -48,10 +48,11 @@ header{
 }
 header img{
     margin-left: 2%;
-    width: 10%;
+    width: 120px;
+    height: 120px;
 }
 header ul{
-  
+    
     list-style: none;
     border-top:2px solid white ;
     
@@ -102,7 +103,7 @@ header a:hover{
     padding: 0em 2em;
     position: absolute;
     top: 1%;
-    left: 2em;
+    left: 2%;
     background-color: #A64208;
     border-radius: 15px 15px 15px 15px;
 -moz-border-radius: 15px 15px 15px 15px;
@@ -121,7 +122,7 @@ border: 0px solid #000000;
     padding: 0em 2em;
     position: absolute;
     top: 43%;
-    left: 2em;
+    left: 2%;
     background-color: #A64208;
     border-radius: 15px 15px 15px 15px;
 -moz-border-radius: 15px 15px 15px 15px;
@@ -177,7 +178,7 @@ border: 0px solid #000000;
     font-size: 25px;
 }
 .sobre-mi img{
-    width: 15%;
+    width: 8em;
     border: 5px solid #333;
     border-radius: 200px 200px 200px 200px;
 -moz-border-radius: 200px 200px 200px 200px;
@@ -197,17 +198,18 @@ box-shadow: 10px 10px 90px 35px rgba(217,95,95,0.6);
     
     display: flex;
     padding: 2em 2em;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .mapa{
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
-    border: 0px solid #000000;
+    margin-bottom: 1em;
 }
 .formulario{
     padding: 1em 0em;
-    margin-left: 11%;
-    width: 40%;
+    width: 30em;
     background-color: #333;
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
@@ -221,8 +223,8 @@ box-shadow: 10px 10px 90px 35px rgba(217,95,95,0.6);
     font-size: 1.5em;
     margin: 0.5em 0em;
     padding: 0em 0em;
-    width: 70%;
-    margin-left: 15%;
+    width: 75%;
+    margin-left: 12.5%;
     border-radius: 20px 20px 20px 20px;
 -moz-border-radius: 20px 20px 20px 20px;
 -webkit-border-radius: 20px 20px 20px 20px;
@@ -244,7 +246,7 @@ footer{
     bottom: 0;
     padding: 0.5em 0em;
     width: 100%;
-    height:2em ;
+    height:auto ;
     background-color: #591902;
     text-align: center;
 
@@ -255,16 +257,18 @@ footer p{
 }
 /*Estilos de las cajas principales*/
 .caja{
-    margin: 0 2%;
     padding: 1.5em 0em;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .caja div{
-    width: 28%;
-    margin: 1em 2%;
+    width: 22em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     transition: 300ms;
     background-color: rgb(209, 209, 209);
@@ -283,16 +287,16 @@ footer p{
 box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 }
 .caja img{
-    width: 40%;
+    width: 10em;
     height: 12em;
-    margin:1em 30%;
+    margin:1em auto;
     transition: 200ms;
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
 }
 .caja div img:hover{
-    width: 42%;
+    width: 10.5em;
     height: 12.5em;
     -webkit-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
 -moz-box-shadow: 10px 10px 15px 3px rgba(217,95,95,1);
@@ -305,5 +309,16 @@ color: white;
 border-radius: 0px 0px 15px 15px;
     -moz-border-radius: 0px 0px 15px 15px;
     -webkit-border-radius: 0px 0px 15px 15px;
+
+}
+
+@media (max-width:480px) {
+    .listaord2{
+        top: 50%;
+        
+    }
+    header ul{
+        list-style: disc;
+    }
 
 }
